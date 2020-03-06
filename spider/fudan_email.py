@@ -109,7 +109,7 @@ class group_email():
 
 email = group_email()
 email.login(name='17302010049',password='password')
-path = '../data/emails.xlsx'
+path = './data/emails.xlsx'
 
 # 第一种群发方式为：对于所有的用户发送一样的数据内容。
 title='测试--群发'
